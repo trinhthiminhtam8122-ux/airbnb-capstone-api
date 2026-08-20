@@ -12,9 +12,13 @@ export const swaggerDocument = {
     description: "",
     version: "1.0.0",
   },
-  servers: [
+    servers: [
     {
-      url: "http://localhost:3069", 
+      url: "https://airbnb-capstone-api.onrender.com",
+      description: "Production server on Render",
+    },
+    {
+      url: "http://localhost:3069",
       description: "Local dev server",
     },
   ],
