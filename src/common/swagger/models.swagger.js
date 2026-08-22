@@ -8,7 +8,7 @@ export const swaggerSchemas = {
       password: { type: "string", example: "123456" },
       phone: { type: "string", example: "0901234567" },
       birthday: { type: "string", example: "1995-10-15" },
-      gender: { type: "boolean", example: true },
+      gender: { type: "string", example: "Nam" },
       role: { type: "string", example: "user" }
     },
     required: ["name", "email", "password"]

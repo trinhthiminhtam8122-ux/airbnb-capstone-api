@@ -9,7 +9,7 @@ const mapUserToApi = (u) => ({
   email: u.email,
   phone: u.phone,
   birthday: u.birth_day,
-  gender: u.gender === "true" || u.gender === "1",
+  gender: u.gender,
   role: u.role
 });
 
